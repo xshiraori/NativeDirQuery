@@ -111,7 +111,7 @@ int main()
 							{
 								objName = (struct UNICODE_STRING*)malloc(objNameLen);
 
-								if (NtQueryObject(hDuplicated, ObjectNameInformation, objName, objNameLen, NULL) == 0)
+								if (NtQueryObject(hDuplicated, ObjectNameInformation, objName, objNameLen, NULL) == STATUS_SUCCESS)
 								{
 									for (ULONG i = 0; i != wndNameCount; i++)
 									{
