@@ -1,4 +1,4 @@
-Listing currently open directories using NTAPI.
+Listing currently open directories using low-level approach.
 
 You can just compile and run the binary.
 
