@@ -1,4 +1,4 @@
-Listing currently open directories using low-level approach.
+Listing currently open folders using low-level approach.
 
 * Open a handle to explorer.exe with PROCESS_DUP_HANDLE and PROCESS_QUERY_INFORMATION rights.
 * Get list of names with open windows related to explorer.exe
